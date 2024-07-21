@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ProyectoFinal",
+    "slug": "ProyectoFinal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/hospital.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/veterinario.png",
+      "resizeMode": "contain",
+      "backgroundColor": "CrimsonDarkGray"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/hospital.png",
+        "backgroundColor": "CrimsonDarkGray"
+      },
+      "package": "com.edwinquevedo89.ProyectoFinal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "357e4dca-46a1-4437-8050-b94e99bc95c0"
+      }
+    }
+  }
+}
